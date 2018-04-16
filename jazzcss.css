@@ -37,6 +37,7 @@ p {font-size: 16px;}
 }
 .bg-4 {
     background-color: #664237;
+    border: 1px solid #664237;
     color: #fff;
 }
 .container-fluid {
@@ -54,5 +55,16 @@ p {font-size: 16px;}
 }
 
 .navbar-nav  li a:hover {
-    color: pink !important;
+    color: #874E4C !important;
+}
+.navbar-nav  li a {
+    color: #664237;
+}
+a {
+    color: white;
+}
+
+a:hover {
+    color: pink;
+    text-decoration: none;
 }
