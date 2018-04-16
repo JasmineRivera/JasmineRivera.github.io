@@ -1,0 +1,46 @@
+body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+}
+p {font-size: 16px;}
+
+
+.margin {margin-bottom: 45px;}
+
+.navbar {
+    background-color: papayawhip;
+}
+
+
+.bg-1 {
+    background-color: #EF767A;
+    color: #ffffff;
+}
+.bg-2 {
+    background-color: #4DA1A9;
+    color: #ffffff;
+}
+.bg-3 {
+    background-color: #FFA630;
+}
+.bg-4 {
+    background-color: #40F99B;
+    color: #fff;
+}
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
