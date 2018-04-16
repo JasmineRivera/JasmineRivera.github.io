@@ -3,6 +3,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.8;
     color: #f5f6f7;
+    background-color: #F7DFD4;
 }
 p {font-size: 16px;}
 
@@ -13,6 +14,14 @@ p {font-size: 16px;}
     background-color: #F7DFD4;
 }
 
+.socmed {
+    font-size: 3em;
+    text-align: center;
+    text-decoration: none;
+    background: #874E4C;
+    color: #F7DFD4;
+
+}
 
 
 .bg-1 {
