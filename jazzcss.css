@@ -1,5 +1,6 @@
 body {
-    font: 20px Montserrat, sans-serif;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
     line-height: 1.8;
     color: #f5f6f7;
 }
@@ -9,23 +10,24 @@ p {font-size: 16px;}
 .margin {margin-bottom: 45px;}
 
 .navbar {
-    background-color: papayawhip;
+    background-color: #F7DFD4;
 }
+
 
 
 .bg-1 {
-    background-color: #EF767A;
+    background-color: #EABCAC;
     color: #ffffff;
 }
 .bg-2 {
-    background-color: #4DA1A9;
+    background-color: #E2B091;
     color: #ffffff;
 }
 .bg-3 {
-    background-color: #FFA630;
+    background-color: #874E4C;
 }
 .bg-4 {
-    background-color: #40F99B;
+    background-color: #664237;
     color: #fff;
 }
 .container-fluid {
@@ -41,6 +43,7 @@ p {font-size: 16px;}
     font-size: 12px;
     letter-spacing: 5px;
 }
+
 .navbar-nav  li a:hover {
-    color: #1abc9c !important;
+    color: pink !important;
 }
