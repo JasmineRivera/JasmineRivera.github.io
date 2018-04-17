@@ -57,12 +57,13 @@ p {font-size: 16px;}
 .navbar-nav  li a:hover {
     color: #874E4C !important;
 }
-.navbar-nav  li a {
+.navbar-inverse .navbar-nav>li>a  {
     color: #664237;
+
 }
-a {
-    color: white;
-}
+/*li {*/
+    /*color: white;*/
+/*}*/
 
 a:hover {
     color: pink;
