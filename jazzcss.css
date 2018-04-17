@@ -1,3 +1,5 @@
+
+/*Apply to Entire Page*/
 body {
     font-size: 20px;
     font-family: 'Open Sans', sans-serif;
@@ -10,19 +12,13 @@ p {font-size: 16px;}
 
 .margin {margin-bottom: 45px;}
 
-.navbar {
-    background-color: #F7DFD4;
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
-.socmed {
-    font-size: 3em;
-    text-align: center;
-    text-decoration: none;
-    background: #874E4C;
-    color: #F7DFD4;
 
-}
-
+/* Backgrounds for sections of the page*/
 
 .bg-1 {
     background-color: #EABCAC;
@@ -40,32 +36,81 @@ p {font-size: 16px;}
     border: 1px solid #664237;
     color: #fff;
 }
-.container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
-}
+
+
+/*Related to Navbar*/
+
 .navbar {
     padding-top: 15px;
     padding-bottom: 15px;
     border: 0;
     border-radius: 0;
     margin-bottom: 0;
+    background-color: #F7DFD4;
     font-size: 12px;
     letter-spacing: 5px;
 }
 
-.navbar-nav  li a:hover {
-    color: #874E4C !important;
+.navbar-inverse .navbar-brand {
+    color: white;
+    font-size: 2em;
 }
-.navbar-inverse .navbar-nav>li>a  {
-    color: #664237;
 
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+    font-size: 1.5em;
 }
-/*li {*/
-    /*color: white;*/
-/*}*/
+.navbar-nav  li a:hover {
+    color: white !important;
+}
+
+.navbar-inverse .navbar-toggle {
+    border: none;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #EABCAC;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border: none;
+}
+/*download my resume button*/
+.btn {
+    background-color: #E7BEA5;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btn:hover {
+    color: #664237;
+}
+
+
+/*social media icons*/
+.socmed {
+    font-size: 3em;
+    text-align: center;
+    text-decoration: none;
+    background: #874E4C;
+}
+
+.fa-twitter {
+    color: #F7DFD4;
+}
+
+.fa-linkedin {
+    color: #F7DFD4;
+}
+
+.fa-instagram {
+    color: #F7DFD4;
+}
+
+
 
 a:hover {
-    color: pink;
+    color: white;
     text-decoration: none;
 }
