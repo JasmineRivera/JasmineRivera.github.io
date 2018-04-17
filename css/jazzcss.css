@@ -73,19 +73,10 @@ p {font-size: 16px;}
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
     border: none;
 }
-/*download my resume button*/
-.btn {
-    background-color: #E7BEA5;
-    border: none;
-    color: white;
-    padding: 12px 30px;
-    cursor: pointer;
-    font-size: 20px;
-}
 
-.btn:hover {
-    color: #664237;
-}
+
+/*download my resume button*/
+
 
 
 /*social media icons*/
@@ -104,13 +95,15 @@ p {font-size: 16px;}
     color: #F7DFD4;
 }
 
-.fa-instagram {
+.fa-github {
     color: #F7DFD4;
 }
 
-
-
+a {
+    color: #ffffff;
+}
 a:hover {
     color: white;
     text-decoration: none;
 }
+
